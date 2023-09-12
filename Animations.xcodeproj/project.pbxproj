@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEAE53FC2AB03EF90000C0C4 /* BindingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE53FB2AB03EF90000C0C4 /* BindingAnimations.swift */; };
 		CEE660AB2AAFA5EC00884F97 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE660AA2AAFA5EC00884F97 /* AnimationsApp.swift */; };
 		CEE660AD2AAFA5EC00884F97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE660AC2AAFA5EC00884F97 /* ContentView.swift */; };
 		CEE660AF2AAFA5EE00884F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE660AE2AAFA5EE00884F97 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEAE53FB2AB03EF90000C0C4 /* BindingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingAnimations.swift; sourceTree = "<group>"; };
 		CEE660A72AAFA5EC00884F97 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE660AA2AAFA5EC00884F97 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		CEE660AC2AAFA5EC00884F97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				CEE660AA2AAFA5EC00884F97 /* AnimationsApp.swift */,
 				CEE660AC2AAFA5EC00884F97 /* ContentView.swift */,
+				CEAE53FB2AB03EF90000C0C4 /* BindingAnimations.swift */,
 				CEE660AE2AAFA5EE00884F97 /* Assets.xcassets */,
 				CEE660B02AAFA5EE00884F97 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAE53FC2AB03EF90000C0C4 /* BindingAnimations.swift in Sources */,
 				CEE660AD2AAFA5EC00884F97 /* ContentView.swift in Sources */,
 				CEE660AB2AAFA5EC00884F97 /* AnimationsApp.swift in Sources */,
 			);
