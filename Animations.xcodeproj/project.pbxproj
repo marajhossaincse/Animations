@@ -11,6 +11,7 @@
 		CE3A70B82AB192B500E72DAC /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A70B72AB192B400E72DAC /* AnimationStack.swift */; };
 		CE50D97E2AB1984100D4C3C5 /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50D97D2AB1984100D4C3C5 /* AnimatingGestures.swift */; };
 		CE51E6DB2AB0442F00247D96 /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51E6DA2AB0442F00247D96 /* ExplicitAnimations.swift */; };
+		CE8795A02AB1FBD800E53A5D /* AnimationswithTransitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87959F2AB1FBD800E53A5D /* AnimationswithTransitions.swift */; };
 		CEAE53FC2AB03EF90000C0C4 /* BindingAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE53FB2AB03EF90000C0C4 /* BindingAnimations.swift */; };
 		CEE660AB2AAFA5EC00884F97 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE660AA2AAFA5EC00884F97 /* AnimationsApp.swift */; };
 		CEE660AD2AAFA5EC00884F97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE660AC2AAFA5EC00884F97 /* ContentView.swift */; };
@@ -23,6 +24,7 @@
 		CE3A70B72AB192B400E72DAC /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
 		CE50D97D2AB1984100D4C3C5 /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
 		CE51E6DA2AB0442F00247D96 /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
+		CE87959F2AB1FBD800E53A5D /* AnimationswithTransitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationswithTransitions.swift; sourceTree = "<group>"; };
 		CEAE53FB2AB03EF90000C0C4 /* BindingAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingAnimations.swift; sourceTree = "<group>"; };
 		CEE660A72AAFA5EC00884F97 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE660AA2AAFA5EC00884F97 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				CE3A70B72AB192B400E72DAC /* AnimationStack.swift */,
 				CE50D97D2AB1984100D4C3C5 /* AnimatingGestures.swift */,
 				CE0F2A052AB1A795001B160E /* AnimatingGesturesStringProject.swift */,
+				CE87959F2AB1FBD800E53A5D /* AnimationswithTransitions.swift */,
 				CEE660AE2AAFA5EE00884F97 /* Assets.xcassets */,
 				CEE660B02AAFA5EE00884F97 /* Preview Content */,
 			);
@@ -159,6 +162,7 @@
 				CE0F2A062AB1A795001B160E /* AnimatingGesturesStringProject.swift in Sources */,
 				CEE660AD2AAFA5EC00884F97 /* ContentView.swift in Sources */,
 				CEE660AB2AAFA5EC00884F97 /* AnimationsApp.swift in Sources */,
+				CE8795A02AB1FBD800E53A5D /* AnimationswithTransitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

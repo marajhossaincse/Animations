@@ -12,7 +12,8 @@ struct AnimationsApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            AnimatingGesturesStringProject()
+//            AnimatingGesturesStringProject()
+            AnimationswithTransitions()
         }
     }
 }
