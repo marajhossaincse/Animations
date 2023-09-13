@@ -11,9 +11,9 @@ import SwiftUI
 struct AnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-//            AnimatingGesturesStringProject()
-            AnimationswithTransitions()
+            NavigationView {
+                ContentView()
+            }
         }
     }
 }

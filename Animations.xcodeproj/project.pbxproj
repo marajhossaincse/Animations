@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CE0F2A062AB1A795001B160E /* AnimatingGesturesStringProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F2A052AB1A795001B160E /* AnimatingGesturesStringProject.swift */; };
+		CE1A42792AB1FDA200DA2A21 /* TransitionusingViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A42782AB1FDA200DA2A21 /* TransitionusingViewModifier.swift */; };
+		CE1A427B2AB2029700DA2A21 /* ImplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A427A2AB2029700DA2A21 /* ImplicitAnimations.swift */; };
 		CE3A70B82AB192B500E72DAC /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A70B72AB192B400E72DAC /* AnimationStack.swift */; };
 		CE50D97E2AB1984100D4C3C5 /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE50D97D2AB1984100D4C3C5 /* AnimatingGestures.swift */; };
 		CE51E6DB2AB0442F00247D96 /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51E6DA2AB0442F00247D96 /* ExplicitAnimations.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		CE0F2A052AB1A795001B160E /* AnimatingGesturesStringProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGesturesStringProject.swift; sourceTree = "<group>"; };
+		CE1A42782AB1FDA200DA2A21 /* TransitionusingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionusingViewModifier.swift; sourceTree = "<group>"; };
+		CE1A427A2AB2029700DA2A21 /* ImplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimations.swift; sourceTree = "<group>"; };
 		CE3A70B72AB192B400E72DAC /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
 		CE50D97D2AB1984100D4C3C5 /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
 		CE51E6DA2AB0442F00247D96 /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
@@ -64,13 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				CEE660AA2AAFA5EC00884F97 /* AnimationsApp.swift */,
-				CE51E6DA2AB0442F00247D96 /* ExplicitAnimations.swift */,
 				CEE660AC2AAFA5EC00884F97 /* ContentView.swift */,
+				CE1A427A2AB2029700DA2A21 /* ImplicitAnimations.swift */,
+				CE51E6DA2AB0442F00247D96 /* ExplicitAnimations.swift */,
 				CEAE53FB2AB03EF90000C0C4 /* BindingAnimations.swift */,
 				CE3A70B72AB192B400E72DAC /* AnimationStack.swift */,
 				CE50D97D2AB1984100D4C3C5 /* AnimatingGestures.swift */,
 				CE0F2A052AB1A795001B160E /* AnimatingGesturesStringProject.swift */,
 				CE87959F2AB1FBD800E53A5D /* AnimationswithTransitions.swift */,
+				CE1A42782AB1FDA200DA2A21 /* TransitionusingViewModifier.swift */,
 				CEE660AE2AAFA5EE00884F97 /* Assets.xcassets */,
 				CEE660B02AAFA5EE00884F97 /* Preview Content */,
 			);
@@ -156,12 +162,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE50D97E2AB1984100D4C3C5 /* AnimatingGestures.swift in Sources */,
+				CE1A427B2AB2029700DA2A21 /* ImplicitAnimations.swift in Sources */,
 				CE3A70B82AB192B500E72DAC /* AnimationStack.swift in Sources */,
 				CE51E6DB2AB0442F00247D96 /* ExplicitAnimations.swift in Sources */,
 				CEAE53FC2AB03EF90000C0C4 /* BindingAnimations.swift in Sources */,
 				CE0F2A062AB1A795001B160E /* AnimatingGesturesStringProject.swift in Sources */,
 				CEE660AD2AAFA5EC00884F97 /* ContentView.swift in Sources */,
 				CEE660AB2AAFA5EC00884F97 /* AnimationsApp.swift in Sources */,
+				CE1A42792AB1FDA200DA2A21 /* TransitionusingViewModifier.swift in Sources */,
 				CE8795A02AB1FBD800E53A5D /* AnimationswithTransitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
